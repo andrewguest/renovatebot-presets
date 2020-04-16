@@ -6,6 +6,6 @@
   "schedule": "before 5am every weekday",
   "lockFileMaintenance": {
     "enabled": true,
-    "schedule": "before 3am every Saturday"
+    "schedule": "before 3am every friday"
   }
 }
