@@ -9,7 +9,7 @@
     "schedule": "before 3am every friday",
     "automerge": true,
   },
-  "packageRules": [{
+  "packageRules": {
     "automerge": true
-  }]
+  },
 }
