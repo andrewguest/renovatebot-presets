@@ -7,6 +7,11 @@
   "lockFileMaintenance": {
     "enabled": true,
     "schedule": "before 3am",
-    "automerge": true,
-  }
+    "automerge": true
+  },
+  "packageRules": [
+    {
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
 }
