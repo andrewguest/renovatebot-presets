@@ -3,9 +3,13 @@
     "config:base"
   ],
   "timezone": "America/Chicago",
-  "schedule": "before 5am every weekday",
+  "schedule": "before 5am every day",
   "lockFileMaintenance": {
     "enabled": true,
-    "schedule": "before 3am every friday"
-  }
+    "schedule": "before 3am every friday",
+    "automerge": true,
+  },
+  "packageRules": [{
+    "automerge": true
+  }]
 }
